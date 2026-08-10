@@ -1,5 +1,6 @@
 import { BrandLogo } from "../components/BrandLogo";
 import { CtaLink } from "../components/CtaLink";
+import { ThemeToggle } from "../components/ThemeToggle";
 import { appLinks } from "../constants/links";
 
 /** Sticky top navigation bar with brand mark, section anchors, and auth CTAs. */
@@ -19,6 +20,7 @@ export function Header() {
           </a>
         </nav>
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <CtaLink href={appLinks.login} variant="secondary" className="px-4">
             Log in
           </CtaLink>
