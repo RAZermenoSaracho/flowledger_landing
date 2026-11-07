@@ -69,7 +69,11 @@ app already defines it before adding one here.
 - Brand colors: `ink` (#17211d), `mint` (#dff8ea), `pine` (#176b52), `coral` (#f97359)
 - Font: Inter
 - Radii: `rounded-md` for buttons/inputs, `rounded-lg` for cards
-- Dark mode: class-based (`darkMode: "class"`), same as the app
+- Dark mode: class-based (`darkMode: "class"`), same as the app, with the app's
+  charcoal `slate` values copied into `src/constants/darkPalette.ts`
+- Icons and `public/manifest.webmanifest`: copied from the app's
+  `apps/web/public`, except that manifest icon paths are relative so they resolve
+  under this site's `/landing-assets/` base
 
 ## Component conventions
 

@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section id="top" className="mx-auto max-w-6xl px-4 pb-20 pt-16 sm:px-6 sm:pt-24">
       <div className="mx-auto max-w-3xl text-center">
-        <span className="inline-flex items-center rounded-full bg-mint px-3 py-1 text-xs font-semibold text-pine dark:bg-emerald-900 dark:text-emerald-300">
+        <span className="inline-flex items-center rounded-full bg-mint px-3 py-1 text-xs font-semibold text-pine dark:bg-emerald-950 dark:text-emerald-200">
           Personal finance workspace
         </span>
         <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-ink dark:text-slate-50 sm:text-5xl">

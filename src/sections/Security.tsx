@@ -34,7 +34,7 @@ export function Security() {
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           {principles.map(({ icon: Icon, title, description }) => (
             <div key={title} className="text-center">
-              <div className="mx-auto grid h-11 w-11 place-items-center rounded-md bg-mint text-pine dark:bg-emerald-900 dark:text-emerald-300">
+              <div className="mx-auto grid h-11 w-11 place-items-center rounded-md bg-mint text-pine dark:bg-emerald-950 dark:text-emerald-200">
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </div>
               <h3 className="mt-4 text-base font-semibold text-ink dark:text-slate-50">{title}</h3>

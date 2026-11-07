@@ -15,9 +15,9 @@ body {
 }
 
 .dark {
-  background: #020617;
+  background: theme("colors.slate.950");
 }
 
 .dark body {
-  color: #e2e8f0;
+  color: theme("colors.slate.200");
 }
