@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "gateway": "node server/gateway.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node --test server/gateway.test.js"
   },
   "dependencies": {
     "http-proxy": "^1.18.1",
