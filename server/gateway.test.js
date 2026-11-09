@@ -91,7 +91,7 @@ test("every branch sets the security headers", async () => {
   for (const path of ["/", "/landing-assets/a.css", "/dashboard"]) {
     const { headers } = await get(path);
 
-    assert.equal(headers.get("strict-transport-security"), "max-age=300");
+    assert.equal(headers.get("strict-transport-security"), "max-age=31536000");
     assert.equal(headers.get("x-content-type-options"), "nosniff");
     assert.equal(headers.get("x-frame-options"), "DENY");
     assert.match(headers.get("content-security-policy-report-only"), /frame-ancestors 'none'/);
